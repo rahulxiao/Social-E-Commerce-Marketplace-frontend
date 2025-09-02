@@ -6,11 +6,12 @@ export default function LoginForm() {
     const [email, setEmail] = useState('');
     const [password, setPassword] =useState('');
     
-    const handleSubmit = (e: React.FormEvent) => {        e.preventDefault();
-        console.log(email, password);
+    const handleSubmit = (e: React.FormEvent) => {e.preventDefault();
+        console.log("Email:", email);
+        console.log("Password:", password);
     }
   return (
-    <div>
+    <form onSubmit={handleSubmit}>
       <label>Email</label>
       <input 
       type="email" 
@@ -24,7 +25,6 @@ export default function LoginForm() {
       onChange={(e)=>setPassword(e.target.value)} />
       
       <button type="submit">Login</button>
-
-    </div>
+    </form>
   );
 }

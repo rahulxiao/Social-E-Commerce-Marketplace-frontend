@@ -5,9 +5,7 @@ export default function LoginLayout({
   }) {
     return (
       <div>
-        <header>Login Header</header>
         <main>{children}</main>
-        <footer>Login Footer</footer>
       </div>
     );
   }

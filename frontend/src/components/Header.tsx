@@ -1,3 +1,4 @@
+
 export default function Header() {
   return (
     <header>
@@ -11,11 +12,11 @@ export default function Header() {
         <a href ="contact">Contact</a>
       </nav>
 
-    {/* Login and Signup */}
-    <div>
-        <button>Login</button>
-        <button>Signup</button>
-    </div>
+      {/* Login and Signup */}
+      <div>
+        <a href="/login">Login</a>
+        <a href="/signup">Signup</a>
+      </div>
 
     </header>
   );
