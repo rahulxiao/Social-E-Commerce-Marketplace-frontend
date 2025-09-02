@@ -782,7 +782,7 @@ const { name: categoryName } = await params;
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Social-E-Commerce-Marketplace-frontend.git
+   git clone https://github.com/rahulxiao/Social-E-Commerce-Marketplace-frontend.git
    cd Social-E-Commerce-Marketplace-frontend
    ```
 
